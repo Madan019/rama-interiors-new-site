@@ -48,12 +48,12 @@ export function Footer() {
                         <h3 className="text-white font-semibold mb-6">Contact Us</h3>
                         <address className="not-italic space-y-4 text-sm">
                             <p>
-                                Green Nagar, Harmada<br />
-                                Jaipur, Rajasthan
+                                New Loha Mandi Rd, Balaji Vihar, Macheda,<br />
+                                V.K.I.A, Harmada, Jaipur, Rajasthan 302013
                             </p>
                             <p>
-                                <a href="tel:+91XXXXXXXXXX" className="hover:text-accent transition-colors">+91 XXXXX XXXXX</a><br />
-                                <a href="mailto:info@ramainteriors.in" className="hover:text-accent transition-colors">info@ramainteriors.in</a>
+                                <a href="tel:+919772966307" className="hover:text-accent transition-colors">+91 9772966307</a><br />
+                                <a href="mailto:interiorsbyrama@gmail.com" className="hover:text-accent transition-colors">interiorsbyrama@gmail.com</a>
                             </p>
                             <p>
                                 Mon - Sat: 09:00 AM - 07:00 PM

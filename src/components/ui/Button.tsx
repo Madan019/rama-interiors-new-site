@@ -33,7 +33,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className={cn(
-                    "inline-flex items-center justify-center rounded-full font-medium transition-all duration-300",
+                    "inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 cursor-pointer",
                     variants[variant],
                     sizes[size],
                     shimmer && "btn-shimmer",

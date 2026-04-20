@@ -48,8 +48,8 @@ export default function AboutPage() {
                             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                                 <div className="rounded-3xl overflow-hidden shadow-lg aspect-video lg:aspect-[4/3]">
                                     <img
-                                        src="https://images.unsplash.com/photo-1620626011740-1a74d2b23a7e?auto=format&fit=crop&w=1200&q=80"
-                                        alt="Quality control"
+                                        src="/images/quality-control.png"
+                                        alt="Quality control precision manufacturing"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>

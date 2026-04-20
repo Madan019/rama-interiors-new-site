@@ -5,6 +5,7 @@ import { useState, useMemo } from "react";
 import { Container } from "../ui/Container";
 import { Lightbox } from "../ui/Lightbox";
 import { Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
+import { portfolioImages } from "@/lib/portfolio-data";
 
 const CATEGORIES = [
     "All",
@@ -16,27 +17,6 @@ const CATEGORIES = [
     "Institutional Furniture / School",
     "Residential",
     "Custom Projects"
-];
-
-// Expanded to demonstrate pagination (at least 15 items)
-const portfolioImages = [
-    { src: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80", alt: "Modern Sofa", category: "Residential" },
-    { src: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?auto=format&fit=crop&w=1200&q=80", alt: "Minimalist Kitchen", category: "Modular Kitchens" },
-    { src: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80", alt: "Walk-in Wardrobe", category: "Wardrobes & Storage" },
-    { src: "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1200&q=80", alt: "Luxury Bed", category: "Beds" },
-    { src: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80", alt: "Island Kitchen", category: "Modular Kitchens" },
-    { src: "https://images.unsplash.com/photo-1620626011740-1a74d2b23a7e?auto=format&fit=crop&w=1200&q=80", alt: "Modern Wardrobe", category: "Wardrobes & Storage" },
-    { src: "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1200&q=80", alt: "Cozy Bed", category: "Beds" },
-    { src: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80", alt: "White Kitchen", category: "Modular Kitchens" },
-    { src: "https://images.unsplash.com/photo-1583847268964-b28ce8f31586?auto=format&fit=crop&w=1200&q=80", alt: "Sliding Wardrobe", category: "Wardrobes & Storage" },
-    { src: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80", alt: "Master Bedroom", category: "Residential" },
-    { src: "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1200&q=80", alt: "Marble Kitchen", category: "Modular Kitchens" },
-    { src: "https://images.unsplash.com/photo-1595526051245-4506e0005bd0?auto=format&fit=crop&w=1200&q=80", alt: "Closet Space", category: "Wardrobes & Storage" },
-    { src: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80", alt: "Timber Wardrobe", category: "Wardrobes & Storage" },
-    { src: "https://images.unsplash.com/photo-1556909211-36987daf7b4d?auto=format&fit=crop&w=1200&q=80", alt: "Dark Kitchen", category: "Modular Kitchens" },
-    { src: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80", alt: "Platform Bed", category: "Beds" },
-    { src: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80", alt: "Office Workspace", category: "Workstations / Office" },
-    { src: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80", alt: "Corporate Layout", category: "Commercial Interiors" },
 ];
 
 const ITEMS_PER_PAGE = 12;
@@ -183,3 +163,4 @@ export function PortfolioGrid() {
         </section>
     );
 }
+

@@ -163,8 +163,8 @@ export function Navbar() {
                                 className="mt-8 pt-8 border-t border-border"
                             >
                                 <div className="text-sm text-text-muted mb-2">Get in touch</div>
-                                <div className="text-primary font-medium">+91 XXXXX XXXXX</div>
-                                <div className="text-primary font-medium">info@ramainteriors.in</div>
+                                <div className="text-primary font-medium">+91 9772966307</div>
+                                <div className="text-primary font-medium">interiorsbyrama@gmail.com</div>
                             </motion.div>
                         </div>
                     </motion.div>

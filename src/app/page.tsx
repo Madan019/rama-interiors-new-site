@@ -19,7 +19,6 @@ export default function Home() {
         <AboutOverview />
         <ServicesOverview />
         <CapacityScale />
-        <ExecutionTimelines />
         <PortfolioPreview />
         <ContactSection />
       </main>
