@@ -31,16 +31,6 @@ export const portfolioImages = [
     "category": "Modular Kitchens"
   },
   {
-    "src": "/images/logo.png",
-    "alt": "logo",
-    "category": "Custom Projects"
-  },
-  {
-    "src": "/images/quality-control.png",
-    "alt": "quality control",
-    "category": "Custom Projects"
-  },
-  {
     "src": "/images/tv-1.png",
     "alt": "tv 1",
     "category": "Residential"

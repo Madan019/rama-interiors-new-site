@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState, useMemo } from "react";
 import { Container } from "../ui/Container";
@@ -110,11 +111,12 @@ export function PortfolioGrid() {
                             onClick={() => openLightbox(index)}
                             className="group relative aspect-square rounded-2xl overflow-hidden cursor-pointer bg-border isolation-auto"
                         >
-                            <img
+                            <Image
                                 src={img.src}
                                 alt={img.alt}
+                                fill
+                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-105"
-                                loading="lazy"
                             />
 
                             <div className="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 import Link from "next/link";
@@ -18,9 +19,11 @@ export function Hero() {
                     transition={{ duration: 1.5, ease: "easeOut" }}
                     className="absolute inset-0 w-full h-full"
                 >
-                    <img
+                    <Image
                         src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2400&q=80"
-                        alt="Premium Furniture Manufacturing"
+                        alt="Rama Interiors Premium Furniture Manufacturing"
+                        fill
+                        priority
                         className="w-full h-full object-cover object-right opacity-30 mix-blend-multiply"
                     />
                 </motion.div>
@@ -89,9 +92,10 @@ export function Hero() {
                     className="hidden lg:block relative h-[500px]"
                 >
                     <div className="absolute inset-0 rounded-3xl overflow-hidden border-8 border-white/50 shadow-2xl">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=800&q=80"
-                            alt="Premium Interior Design"
+                            alt="Rama Interiors Premium Interior Design"
+                            fill
                             className="w-full h-full object-cover"
                         />
                     </div>

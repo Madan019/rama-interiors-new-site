@@ -18,7 +18,15 @@ function generatePortfolio() {
     const files = fs.readdirSync(imagesDirectory);
     
     const images = files
-      .filter(file => /\.(png|jpe?g|webp|svg)$/i.test(file))
+      .filter(file => {
+        const lowerFile = file.toLowerCase();
+        const isImage = /\.(png|jpe?g|webp|svg)$/i.test(file);
+        const isExcluded = lowerFile.includes('logo') || 
+                          lowerFile.includes('quality-control') || 
+                          lowerFile.includes('og-image') ||
+                          lowerFile.includes('favicon');
+        return isImage && !isExcluded;
+      })
       .map(file => {
         let category = "Custom Projects";
         const lowerFile = file.toLowerCase();
