@@ -66,7 +66,7 @@ const services = [
         icon: <Hammer className="w-6 h-6 text-accent" />,
         desc: "Unmatched craftsmanship for all your structural and decorative woodwork needs. Our skilled carpenters deliver precision and quality for lasting wooden installations.",
         features: ["Doors & Windows", "Custom Furnishings", "Wall Paneling", "Restoration Work"],
-        image: "/portfolio/woodwork.png"
+        image: "/images/quality-control.png"
     },
     {
         id: "08",
@@ -93,7 +93,7 @@ const services = [
         icon: <Layers className="w-6 h-6 text-accent" />,
         desc: "Diverse flooring options from classic hardwood to modern vitrified tiles. We provide expert installation ensuring flawless finishes that elevate the foundation of your space.",
         features: ["Hardwood & Laminate", "Vitrified Tiles", "Marble & Granite", "Epoxy Flooring"],
-        image: "/portfolio/flooring.png"
+        image: "/images/flooring.png"
     }
 ];
 
