@@ -5,32 +5,24 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const imagesDirectory = path.join(process.cwd(), 'public/images');
+const imagesDirectory = path.join(process.cwd(), 'public/portfolio');
 const outputFile = path.join(process.cwd(), 'src/lib/portfolio-data.ts');
 
 function generatePortfolio() {
   try {
     if (!fs.existsSync(imagesDirectory)) {
-      console.warn('Images directory not found');
+      console.warn('Portfolio directory not found');
       return;
     }
 
     const files = fs.readdirSync(imagesDirectory);
-    
+
     const images = files
-      .filter(file => {
-        const lowerFile = file.toLowerCase();
-        const isImage = /\.(png|jpe?g|webp|svg)$/i.test(file);
-        const isExcluded = lowerFile.includes('logo') || 
-                          lowerFile.includes('quality-control') || 
-                          lowerFile.includes('og-image') ||
-                          lowerFile.includes('favicon');
-        return isImage && !isExcluded;
-      })
+      .filter(file => /\.(png|jpe?g|webp|svg)$/i.test(file))
       .map(file => {
         let category = "Custom Projects";
         const lowerFile = file.toLowerCase();
-        
+
         if (lowerFile.includes('kitchen')) category = "Modular Kitchens";
         else if (lowerFile.includes('wardrobe')) category = "Wardrobes & Storage";
         else if (lowerFile.includes('bed')) category = "Beds";
@@ -40,8 +32,8 @@ function generatePortfolio() {
         else if (lowerFile.includes('commercial')) category = "Commercial Interiors";
 
         return {
-          src: `/images/${file}`,
-          alt: file.replace(/-/g, ' ').split('.')[0],
+          src: `/portfolio/${file}`,
+          alt: `Rama Interiors - ${file.replace(/-/g, ' ').split('.')[0]}`,
           category: category
         };
       });

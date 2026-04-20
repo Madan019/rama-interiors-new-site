@@ -1,68 +1,68 @@
 // This file is auto-generated. Do not edit manually.
 export const portfolioImages = [
   {
-    "src": "/images/bed-1.png",
-    "alt": "bed 1",
+    "src": "/portfolio/bed-1.png",
+    "alt": "Rama Interiors - bed 1",
     "category": "Beds"
   },
   {
-    "src": "/images/bed-3.png",
-    "alt": "bed 3",
+    "src": "/portfolio/bed-3.png",
+    "alt": "Rama Interiors - bed 3",
     "category": "Beds"
   },
   {
-    "src": "/images/flooring.png",
-    "alt": "flooring",
+    "src": "/portfolio/flooring.png",
+    "alt": "Rama Interiors - flooring",
     "category": "Custom Projects"
   },
   {
-    "src": "/images/kitchen-1.png",
-    "alt": "kitchen 1",
+    "src": "/portfolio/kitchen-1.png",
+    "alt": "Rama Interiors - kitchen 1",
     "category": "Modular Kitchens"
   },
   {
-    "src": "/images/kitchen-2.png",
-    "alt": "kitchen 2",
+    "src": "/portfolio/kitchen-2.png",
+    "alt": "Rama Interiors - kitchen 2",
     "category": "Modular Kitchens"
   },
   {
-    "src": "/images/kitchen-3.png",
-    "alt": "kitchen 3",
+    "src": "/portfolio/kitchen-3.png",
+    "alt": "Rama Interiors - kitchen 3",
     "category": "Modular Kitchens"
   },
   {
-    "src": "/images/tv-1.png",
-    "alt": "tv 1",
+    "src": "/portfolio/tv-1.png",
+    "alt": "Rama Interiors - tv 1",
     "category": "Residential"
   },
   {
-    "src": "/images/tv-2.png",
-    "alt": "tv 2",
+    "src": "/portfolio/tv-2.png",
+    "alt": "Rama Interiors - tv 2",
     "category": "Residential"
   },
   {
-    "src": "/images/tv-4.png",
-    "alt": "tv 4",
+    "src": "/portfolio/tv-4.png",
+    "alt": "Rama Interiors - tv 4",
     "category": "Residential"
   },
   {
-    "src": "/images/tv-5.png",
-    "alt": "tv 5",
+    "src": "/portfolio/tv-5.png",
+    "alt": "Rama Interiors - tv 5",
     "category": "Residential"
   },
   {
-    "src": "/images/tv-6.png",
-    "alt": "tv 6",
+    "src": "/portfolio/tv-6.png",
+    "alt": "Rama Interiors - tv 6",
     "category": "Residential"
   },
   {
-    "src": "/images/wardrobe-1.png",
-    "alt": "wardrobe 1",
+    "src": "/portfolio/wardrobe-1.png",
+    "alt": "Rama Interiors - wardrobe 1",
     "category": "Wardrobes & Storage"
   },
   {
-    "src": "/images/woodwork.png",
-    "alt": "woodwork",
+    "src": "/portfolio/woodwork.png",
+    "alt": "Rama Interiors - woodwork",
     "category": "Custom Projects"
   }
 ];
