@@ -49,7 +49,7 @@ export function Hero() {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         className="heading-1 text-primary mb-6"
                     >
-                        Crafting Spaces with <span className="text-accent italic font-light">Precision</span> & Scale
+                        Rama Interiors: Crafting Spaces with <span className="text-accent italic font-light">Precision</span> & Scale
                     </motion.h1>
 
                     <motion.p

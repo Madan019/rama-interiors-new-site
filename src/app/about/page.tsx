@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { InnerHero } from "@/components/ui/InnerHero";
@@ -5,6 +6,11 @@ import { Container } from "@/components/ui/Container";
 import { AboutOverview } from "@/components/sections/AboutOverview";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { CtaBanner } from "@/components/sections/CtaBanner";
+
+export const metadata: Metadata = {
+  title: "About Us | Our Story & Mission",
+  description: "Learn about Rama Interiors, a legacy of excellence in premium furniture manufacturing in Jaipur, Rajasthan since 1999.",
+};
 
 export default function AboutPage() {
     return (

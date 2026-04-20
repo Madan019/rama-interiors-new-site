@@ -4,9 +4,11 @@ import { InnerHero } from "@/components/ui/InnerHero";
 import { PortfolioGrid } from "@/components/sections/PortfolioGrid";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 
-export const metadata = {
-    title: 'Portfolio | Rama Interiors',
-    description: 'Explore our portfolio of interior design and manufacturing projects.',
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Portfolio | Our Featured Furniture & Interior Projects",
+    description: "Explore Rama Interiors' portfolio featuring premium hospitality, residential, and institutional furniture projects delivered across India.",
 };
 
 export default function PortfolioPage() {

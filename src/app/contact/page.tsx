@@ -1,7 +1,13 @@
+import { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { InnerHero } from "@/components/ui/InnerHero";
 import { ContactSection } from "@/components/sections/ContactSection";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Get a Quote for Bulk Furniture",
+  description: "Contact Rama Interiors for premium furniture manufacturing, bulk orders, and bespoke interior solutions in Jaipur, Rajasthan.",
+};
 
 export default function ContactPage() {
     return (

@@ -6,8 +6,8 @@ import { CtaBanner } from "@/components/sections/CtaBanner";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Our Services | Premium Interior Solutions",
-    description: "Explore our comprehensive range of interior design and manufacturing services.",
+    title: "Our Services | Bespoke Furniture & Bulk Manufacturing",
+    description: "Explore our expert services in bulk furniture manufacturing, luxury residential interiors, and large-scale commercial setups in Rajasthan.",
 };
 
 export default function ServicesPage() {
