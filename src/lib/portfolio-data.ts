@@ -59,10 +59,5 @@ export const portfolioImages = [
     "src": "/portfolio/wardrobe-1.png",
     "alt": "Rama Interiors - wardrobe 1",
     "category": "Wardrobes & Storage"
-  },
-  {
-    "src": "/portfolio/woodwork.png",
-    "alt": "Rama Interiors - woodwork",
-    "category": "Custom Projects"
   }
 ];
